@@ -1,0 +1,188 @@
+﻿* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  background: #f5f5f5;
+}
+
+header {
+   width: 100%;
+   height: 500px;
+   background-image: url("../IMG/Workspace.jpg");
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+
+header nav {
+  width: 100%;
+  height:60px;
+  position: fixed;
+  top:0;
+  left:0;
+  background: deepskyblue;
+  box-shadow: 0px 0px 5px black;
+}
+
+header nav .logo {
+  width: 50%;
+  height: 100%;
+  padding:6px 0px;
+  float: left;
+}
+
+header nav .logo img {
+  height:100%;
+  display:block;
+  margin: auto; 
+  
+}
+
+header nav .menu {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  float:left;
+}
+
+header nav .menu a {
+  text-decoration: none;
+  text-align:center;
+  font-size: 16px;
+  float: left;
+  padding: 10px 0px;
+  margin-left: 30px;
+  color: white;
+}
+
+header nav .menu a:hover {
+  border-bottom: 1px solid white;
+}
+
+#contacto {
+  width: 100%;
+  padding:15px 0px;
+}
+
+
+#contacto h1 {
+  text-align: center;
+  color: deepskyblue;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 30px 0px 15px 0px; 
+}
+
+
+#contacto .row {
+  width:80%;
+  margin: auto;
+  overflow:auto;
+    
+  background: white;
+  border-top: 20px solid deepskyblue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0px 3px 5px silver;
+}
+
+#contacto .row .formulario {
+  width:50%;  
+  float: left;
+  padding:10px;
+}
+
+#contacto .row .formulario .wrap {
+  width: 50%;
+  float:left;
+  padding:10px;   
+}
+
+#contacto .row .formulario .wrap .campo {
+  width: 100%;
+  position: relative;
+  padding: 5px 0px 5px 25px;
+}
+
+#contacto .row .formulario .wrap .campo i {
+  font-size:18px;
+  color: deepskyblue;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+
+}
+
+#contacto .row .formulario .wrap .campo label {
+  font-size:15px;
+  color: #738290;  
+}
+
+#contacto .row .formulario .wrap input {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  color: deepskyblue;
+  border: none;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+input:focus, textarea {
+  outline:none;
+}
+
+#contacto .row .formulario .wrap:nth-child(5) {
+  width: 100%;
+}
+
+#contacto .row .formulario .wrap textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  font-size:15px;
+  padding: 5px;
+  color: #738290;
+  border: 1px solid #dcdcdc;
+}
+
+#contacto .row .formulario input[type="submit"] {
+  width: 40%;
+  display: block;
+  margin: auto;
+  padding:5px;
+  background: #738290;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contacto .row .formulario input[type="submit"]:hover {
+  background:deepskyblue;
+}
+
+
+#contacto .row .personal {
+  width:50%;
+  height:450px;
+  float: left;
+  padding: 10px;
+  
+}
+
+#contacto .row .personal .wrap {
+  width:100%;
+  height: 100%;
+  background: #f5f5f5;
+  border-radius:10px;
+}
+

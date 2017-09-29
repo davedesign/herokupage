@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+  <html>
+    <head>
+      <title>Pagina en Heroku</title>
+      <meta charset="utf-8">
+      <link href="CSS/estilo1.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,800" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+      <header>
+        <nav>
+          <div class="logo">
+            <img src="IMG/Logo1.png" alt="David DG">
+          </div>
+          <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Portafolio</a>
+            <a href="#">Contacto</a>
+          </div>
+        </nav>
+      </header>
+
+
+      <section id="contacto">
+
+        <h1>CONTACTO</h1>
+        <div class="row">          
+          <form action="formulario.php" method="post" class="formulario">
+
+            <div class="wrap">
+              <div class="campo">
+                <i class="material-icons">person</i>           
+                <label for="nombre">NOMBRE:</label>
+              </div>             
+              <input type="text" name="nombre" id="nombre">
+            </div>
+
+            <div class="wrap">
+              <div class="campo">
+                <i class="material-icons">people</i>           
+                <label for="apellido">APELLIDO:</label>
+              </div>             
+              <input type="text" name="apellido" id="apellido">
+            </div>
+
+            <div class="wrap">
+              <div class="campo">
+                <i class="material-icons">email</i>           
+                <label for="usremail">E-MAIL:</label>
+              </div>             
+              <input type="email" name="usremail" id="usremail">
+            </div>
+
+            <div class="wrap">
+              <div class="campo">
+                <i class="material-icons">stay_current_portrait</i>           
+                <label for="usrtel">TELEFONO:</label>
+              </div>             
+              <input type="tel" name="usrtel" id="usrtel">
+            </div>
+
+            <div class="wrap">
+              <div class="campo">
+                <i class="material-icons">message</i>           
+                <label for="msje">MENSAJE:</label>
+              </div>             
+              <textarea name="msje" id="msje" placeholder="Deja tu mensaje aqui.."></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Formulario">
+            
+          </form>
+
+          <div class="personal">
+            <div class="wrap">
+              
+            </div>
+          </div>
+
+        </div>
+
+
+     </section>
+
+    </body>
+  </html>
