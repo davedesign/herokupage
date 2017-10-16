@@ -27,8 +27,10 @@
         Telefono: ".$telefono."
         Mensaje: ".$mensaje."
         ";
+      
+        $cabecera .= "From: daviddesign.com <no-reply@herokudave.herokuapp.com/>" . "\r\n";
 
-        mail($para,$asunto,utf8_decode($contenido));
+        mail($para,$asunto,utf8_decode($contenido),$cabecera);
 
         echo "<h1>Se envio correctamente</h1>";
 
