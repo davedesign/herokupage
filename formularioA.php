@@ -2,6 +2,7 @@
       <?php
 
         require 'phpmailer/PHPMailer.php';
+        require 'SMTP.php';
 
         $mail = new PHPMailer();
 
