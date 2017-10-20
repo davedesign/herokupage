@@ -21,7 +21,7 @@
         $mail->Body = 'Este es el cuerpo del correo';
 
         if($mail->send()){
-              echo 'mensaje enviado'
+              echo 'mensaje enviado';
         } else {
               echo 'algo sucedio mal';
         }
