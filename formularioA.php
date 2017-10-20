@@ -2,7 +2,7 @@
       <?php
 
         require 'phpmailer/PHPMailer.php';
-        require 'SMTP.php';
+        require 'phpmailer/SMTP.php';
 
         $mail = new PHPMailer();
 
