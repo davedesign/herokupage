@@ -20,10 +20,6 @@
         $mail->Subject = 'Mensaje Nuevo';
         $mail->Body = 'Este es el cuerpo del correo';
 
-        if($mail->send()){
-              echo 'mensaje enviado';
-        } else {
-              echo 'algo sucedio mal';
-        }
+        $mail->send();
 
       ?>
