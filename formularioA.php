@@ -21,6 +21,10 @@
         $mail->Subject = 'Mensaje Nuevo';
         $mail->Body = 'Este es el cuerpo del correo';
 
-        $mail->Send();
+        if (!$mail->send()) {
+         echo "Mailer Error: " . $mail->ErrorInfo;
+         } else {
+         echo "Message sent!";
+         }
 
-      ?>
+     ?>
