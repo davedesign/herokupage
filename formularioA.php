@@ -14,7 +14,7 @@
         $mail->SMTPAuth = true;
         $mail->Username = 'davidcastillodg@gmail.com';
         $mail->Password = '83122612';
-
+        $mail->SMTPDebug = 2;
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 25;
 
