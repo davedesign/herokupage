@@ -15,8 +15,8 @@
         $mail->Username = 'davidcastillodg@gmail.com';
         $mail->Password = '83122612';
 
-        $mail->SMTPSecure = 'ssl';
-        $mail->Port = 25;
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
 
         $mail->setFrom('davidcastillodg@gmail.com');
         $mail->addAddress('davidcastillodg@gmail.com');
