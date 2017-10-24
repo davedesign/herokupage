@@ -1,5 +1,7 @@
 
       <?php
+     
+        use PHPMailer\PHPMailer\PHPMailer;
 
         include "phpmailer/PHPMailer.php";
         include "phpmailer/SMTP.php";
