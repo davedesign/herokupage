@@ -9,14 +9,15 @@
         $mail = new PHPMailer();
 
         $mail->isSMTP();
+        $mail->SMTPDebug = 1;
         
         $mail->Host ='smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'davidcastillodg@gmail.com';
         $mail->Password = '83122612';
-        $mail->SMTPDebug = 2;
-        $mail->SMTPSecure = 'ssl';
-        $mail->Port = 465;
+        
+        $mail->SMTPSecure = 'tls';
+        $mail->Port = 587;
 
         $mail->setFrom('davidcastillodg@gmail.com');
         $mail->addAddress('davidcastillodg@gmail.com');
