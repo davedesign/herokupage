@@ -21,6 +21,6 @@
         $mail->Subject = 'Mensaje Nuevo';
         $mail->Body = 'Este es el cuerpo del correo';
 
-        $mail->send();
+        $mail->Send();
 
       ?>
