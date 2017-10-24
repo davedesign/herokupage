@@ -13,8 +13,8 @@
         
         $mail->Host ='smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'davidcastillodg@gmail.com';
-        $mail->Password = '83122612';
+        $mail->Username = 'dcrmonkey@gmail.com';
+        $mail->Password = '12261283';
         
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
