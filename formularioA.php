@@ -3,8 +3,8 @@
      
         use PHPMailer\PHPMailer\PHPMailer;
 
-        require 'phpmailer/PHPMailer.php';
-        require 'phpmailer/SMTP.php';
+        require 'PHPMailer/src/PHPMailer.php';
+        require 'PHPMailer/src/SMTP.php';
 
         $mail = new PHPMailer();
 
